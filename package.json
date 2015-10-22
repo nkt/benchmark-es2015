@@ -1,0 +1,27 @@
+{
+  "name": "benchmark-es2015",
+  "version": "0.0.0",
+  "description": "Benchmark suites for ES2015",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkt/benchmark-es2015.git"
+  },
+  "author": "Nikita Gusakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkt/benchmark-es2015/issues"
+  },
+  "homepage": "https://github.com/nkt/benchmark-es2015#readme",
+  "dependencies": {
+    "benchmark": "^1.0.0",
+    "commander": "^2.9.0",
+    "microtime": "^2.0.0"
+  },
+  "bin": {
+    "benchmark-es2015": "./src/index.js"
+  }
+}
