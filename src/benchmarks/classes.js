@@ -3,8 +3,17 @@ var createBenchmark = require('../benchmark');
 
 var suite = createBenchmark('Classes');
 
-function FunctionClass() {}
-FunctionClass.prototype.foo = function() {};
+var FunctionClass = (function () {
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+  function FunctionClass() {
+    _classCallCheck(this, FunctionClass);
+  }
+
+  FunctionClass.prototype.foo = function foo() {};
+
+  return FunctionClass;
+})();
 
 class ESClass {
   foo() {}
