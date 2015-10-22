@@ -1,3 +1,4 @@
+'use strict';
 var createBenchmark = require('../benchmark');
 
 var suite = createBenchmark('Arrow functions');
