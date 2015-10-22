@@ -1,6 +1,6 @@
 {
   "name": "benchmark-es2015",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Benchmark suites for ES2015",
   "main": "index.js",
   "scripts": {
